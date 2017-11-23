@@ -8,15 +8,19 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import HelloWorld  from './components/HelloWorld.vue';
 
 @Component({
-  name: 'app'
+  name: 'app',
+  components: {
+    HelloWorld
+  }
 })
 export default class App extends Vue {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -21,12 +21,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import Component from 'vue-class-component'
+import Vue from 'vue';
+import Component from 'vue-class-component';
 @Component({
-  name: 'hello'
+  name: 'helloworld'
 })
-export default class Hello extends Vue {
+export default class HelloWorld extends Vue {
   msg = 'Welcome to Your Vue.js App'
 }
 </script>
